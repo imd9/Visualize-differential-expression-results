@@ -4,7 +4,7 @@
 ## Assignment 7
 
 # Welcome to R Shiny. All that glitters is not gold.
-#library(tidyverse)
+library(tidyverse)
 library(shiny)
 library(ggplot2)
 library(colourpicker) # you might need to install this.
@@ -17,7 +17,9 @@ ui <- fluidPage(theme = shinythemes::shinytheme("slate"),
                 h1("BF591 Assignment 7"),
                 h3("Italo Duran"),
                 h4("Visualize differential expression results"),
-                h5("To use this application, download the CSV <code>deseq_res.csv</code> from the data directory of this app's repository."),
+                tags$h5(HTML("To use this application, download the CSV <b>deseq_res.csv</b> from the data folder in my github:")),
+                tags$a(href="https://github.com/BF591-R/bf591-assignment-7-imd9/tree/main/data","Click here for 'My Github' CSV sample file!"),
+                HTML("<br><br>"),
                 sidebarLayout(sidebarPanel(
                                 fileInput("file1","Load differential expression results", accept = ".csv", placeholder = "deseq_res.csv"),
                                 HTML(paste(rep("<p>A volcano plot can be generated with <b>'log<sub>2</sub> fold-change'</b> on the x-axis and <b>'p-adjusted'</b> on the y-axis.</p>"), collapse = "")),
