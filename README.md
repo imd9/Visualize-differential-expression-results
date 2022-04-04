@@ -1,2 +1,4 @@
 # bf591-assignment-7
-You telling me R shinied this app?
+
+URL for published assigment:
+https://duran.shinyapps.io/Visualize_differential_expression_results/
