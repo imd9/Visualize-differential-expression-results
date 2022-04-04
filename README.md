@@ -6,4 +6,4 @@
 <br>
 #### http://duran.shinyapps.io/Visualize_differential_expression_results
 
-##### Notes: Anybody is welcomed to look over the code and data as template to explore and learn how to use Rshiny... <p>U+263A</p>
+##### Notes: Anybody is welcomed to look over the code and data as template to explore and learn how to use Rshiny... <p>&#U+263A</p>
