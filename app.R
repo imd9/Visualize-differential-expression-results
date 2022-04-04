@@ -18,7 +18,7 @@ ui <- fluidPage(theme = shinythemes::shinytheme("slate"),
                 h3("Italo Duran"),
                 h4("Visualize differential expression results"),
                 tags$h5(HTML("To use this application, download the CSV <b>deseq_res.csv</b> from the data folder in my github:")),
-                tags$a(href="https://github.com/BF591-R/bf591-assignment-7-imd9/tree/main/data","Click here for 'My Github' CSV sample file!"),
+                tags$a(href="https://github.com/BF591-R/bf591-assignment-7-imd9/tree/main/data",target="_blank",rel="noopener noreferrer","Click here for 'My Github' CSV sample file!"),
                 HTML("<br><br>"),
                 sidebarLayout(sidebarPanel(
                                 fileInput("file1","Load differential expression results", accept = ".csv", placeholder = "deseq_res.csv"),
