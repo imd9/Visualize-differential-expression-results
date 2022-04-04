@@ -5,5 +5,6 @@
 URL for application assigment:
 <br>
 http://duran.shinyapps.io/Visualize_differential_expression_results
-
-##### Notes: Anybody is welcomed to look over the code and data as template to explore and learn how to use Rshiny... <p>&#U+263A</p>
+<br>
+<br>
+Notes: Anybody is welcomed to look over the code and the data, as a template to explore and learn how to use Rshiny...:blush:
